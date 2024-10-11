@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading {
+      @apply text-2xl font-bold mb-4;
+    }
+  
+    .form {
+      @apply space-y-4;
+    }
+
+    main a {
+       @apply text-orange-400 
+    }
+
+    input {
+      @apply p-2 border border-gray-400 rounded w-full;
+    }
+  
+    textarea {
+      @apply p-2 border border-gray-400 rounded w-full;
+    }
+  
+    button {
+      @apply bg-orange-600 text-white hover:bg-orange-800 p-2;
+    }
+  }
